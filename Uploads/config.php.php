@@ -8,8 +8,8 @@ function ft_settings_external_load() {
   $ft['plugins'] = array();
 
   # Settings - Change as appropriate. See online documentation for explanations. #
-  define("USERNAME", ""); // Your default username.
-  define("PASSWORD", ""); // Your default password.
+  define("USERNAME", "anton"); // Your default username.
+  define("PASSWORD", "communism"); // Your default password.
 
   $ft["settings"]["DIR"]               = "."; // Your default directory. Do NOT include a trailing slash!
   $ft["settings"]["LANG"]              = "en"; // Language. Do not change unless you have downloaded language file.
