@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Saduko Times</title>
+	<meta charset="UTF-8">
+	<script src="js/sudo.js" type="text/javascript"></script>
+	<style>
+		#tebl tr:nth-of-type(3) td {
+			padding-bottom: 10px;
+		}
+
+		#tebl tr:nth-of-type(6) td {
+			padding-bottom: 10px;
+		}
+
+		#tebl tr td input {
+			text-align: center;
+		}
+	</style>
+</head>
+<body onload="create_Table(tebl)" id="badoo">
+	<form>
+		<table id="tebl" name="tebl">
+		</table>
+	</form>
+	<button onClick="sudo_Solve(tebl)">Booton</button>
+</body>
+</html>
